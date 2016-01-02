@@ -1,14 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>TechsphereClock</title>
+  <title>TTSClock</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-
-<%= yield %>
+  
+  <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <%= link_to 'Look! Antiques', root_path, class: "navbar-brand" %>
+        </div>
+        <div id="navbar">
+          <ul class="nav navbar-nav">
+            
+            <li class="active"><%= link_to 'Homepage', root_path %></li>
+            
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    
+    <%= yield %>
+    
+    <div class="container col-lg-12" style="padding:0">
+      <div class="footer footer__box-bottom">
+        <div class="container">
+          &copy; 2015 <%= link_to 'TheTechSphere', "http://www.thetechsphere.us/" %>
+        </div>
+      </div>
+    </div>
 
 </body>
 </html>

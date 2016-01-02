@@ -1,0 +1,158 @@
+// Stylesheet For TheTechSphere <--------------------------
+
+.text_field {
+    border-radius: 3px 20px 20px 3px;
+    border: 2px inset darkgrey;
+    background-color: darkgrey;
+    width: 50%;
+    
+}
+
+textarea.text_field {
+    height: 200px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px 0;
+    border-top: 1px solid rgba(40, 41, 42, 0.44);
+    color: #908D8F;
+}
+
+a:focus {
+    outline: none;
+}
+
+.navbar {
+    margin-bottom: 0 !important;
+}
+
+.navbar-toggle {
+    color: white;
+}
+
+.center-col {
+    border-left: 3px solid #4FB183;
+    border-right: 3px solid #4FB183;
+}
+
+.navbar-nav > li > a {
+    transition: background .25s ease-in-out;
+    -webkit-transition: background .25s ease-in-out;
+}
+
+/*.navbar-nav > li > a:hover {
+    background-color: #454545 !important;
+    color: #fff !important;
+}*/
+
+.navbar-nav > li > ul > li > a {
+    background-color: #333333;
+    transition: background .25s ease-in-out;
+    -webkit-transition: background .25s ease-in-out;
+}
+
+.nav .open > a {
+    color: #333;
+}
+.nav > li > a:focus {
+    background-color: #eee;
+    color: #000;
+}
+
+
+.navbar-nav > li > ul > li > a {
+    background: transparent;
+    color: #000;
+    transition: background .25s ease-in-out;
+    -webkit-transition: background .25s ease-in-out;
+    
+    &:hover {
+        background: #ddd;
+        //color: #fff;
+    }
+}
+
+.dropdown-menu {
+    background-color: #333333 !important;
+}
+
+.navbar-nav > li > a {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.navbar-nav .open .dropdown-menu > li > a {
+    padding: 20px 15px 20px 25px !important;
+}
+
+.jumbotron-br {
+    //background-color: #4FB183 !important; 
+    padding-top: 15px !important;
+    box-shadow: 0px 0px 3px 2px silver;
+    //color: #4FB183 !important; 
+    font-size: 13pt;
+}
+
+.jumbotron .container h2 {
+    color: #444;
+    font-weight: 300;
+    font-size: 28pt;
+}
+
+.col-md-4 h3, .col-md-4 p {
+    color: #333;
+}
+
+
+a[aria-expanded="true"] {
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14),
+                0 1px 8px 0 rgba(0, 0, 0, 0.12),
+                0 3px 3px -2px rgba(0, 0, 0, 0.4);
+}
+
+.navbar-nav .open .dropdown-menu {
+    background-color: #eee !important;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14),
+                0 1px 8px 0 rgba(0, 0, 0, 0.12),
+                0 3px 3px -2px rgba(0, 0, 0, 0.4) !important;
+}
+.dropdown-menu {
+    border-radius: 1.5px !important;
+    
+    .divider {
+        background-color: #b7b7b7 !important;
+    }
+}
+
+.footer{
+    background-color: #eee;
+}
+
+
+//    NAVBAR BRANDING
+.navbar-brand {
+    padding: 20px 15px;
+}
+
+
+//    BUTTON WIDTH FIX
+.btn-width-all {
+    width: 225px;
+    text-align: left !important;
+}
+
+.enclose__children {
+    height: 340px;
+}
+
+.borderbottom_title {
+    border-bottom: 3px solid #444;
+}
+
+.row_col_right {
+    text-align: right;
+}
