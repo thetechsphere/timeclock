@@ -50,5 +50,5 @@ test:
 production:
   <<: *default
   database: techsphere_clock_production
-  username: techsphere_clock
-  password: <%= ENV['TECHSPHERE_CLOCK_DATABASE_PASSWORD'] %>
+  username: root
+  password: python
