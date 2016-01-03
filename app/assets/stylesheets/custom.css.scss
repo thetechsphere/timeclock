@@ -169,6 +169,10 @@ a[aria-expanded="true"] {
     border-left: 5px solid green;
 }
 
+.navbar li a:active {
+    border-left: 5px solid red !important;
+}
+
 
 //    BUTTON WIDTH FIX
 .btn-width-all {
